@@ -10,3 +10,12 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  twentyseventeen-child
 */
+
+/* http://matt.alifrumin.com/keep-in-touch/  styles */
+article#post-30 .crm-container a.button.cancel, article#post-30 .crm-container a.button.cancel:link {
+display: none;
+}
+article#post-30 header.entry-header {
+  display: none;
+}
+
