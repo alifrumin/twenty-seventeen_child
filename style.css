@@ -12,10 +12,30 @@
 */
 
 /* http://matt.alifrumin.com/keep-in-touch/  styles */
-article#post-30 .crm-container a.button.cancel, article#post-30 .crm-container a.button.cancel:link {
-display: none;
+article#post-30 .crm-container a.button.cancel, 
+article#post-30 .crm-container a.button.cancel:link,
+article#post-44 .crm-container a.button.cancel, 
+article#post-44 .crm-container a.button.cancel:link {
+  display: none;
 }
 article#post-30 header.entry-header {
   display: none;
 }
 
+div.textwidget .social-navigation {
+  width: 100%;
+}
+
+.widget .social-navigation  a:hover {
+-webkit-box-shadow: none;
+ box-shadow: none;
+ color: white;
+}
+
+.crm-container .crm-section .label {
+ text-align: left;
+}
+
+.has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
+ height: 250px;
+}
