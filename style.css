@@ -18,6 +18,7 @@ article#post-44 .crm-container a.button.cancel,
 article#post-44 .crm-container a.button.cancel:link {
   display: none;
 }
+article#post-44 header.entry-header,
 article#post-30 header.entry-header {
   display: none;
 }
@@ -32,10 +33,24 @@ div.textwidget .social-navigation {
  color: white;
 }
 
-.crm-container .crm-section .label {
+body .crm-container .crm-section .label {
  text-align: left;
 }
 
 .has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
  height: 250px;
 }
+
+/*float labels above inputs on small screens*/
+@media (max-width: 660px) {
+  body .crm-container .crm-section .label {
+	  float: none;
+	  width: auto;
+	  text-align: left;
+          padding-left: 0px;
+  }
+  body .crm-container .crm-section .content {
+	  margin: 0px;
+  }
+}
+
